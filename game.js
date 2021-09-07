@@ -56,7 +56,7 @@ function moveEnemy(car){
          }
          if(item.y>1500){
              item.y=-600
-             item.style.left=Math.floor(Math.random()*150)+"px"
+             item.style.left=Math.floor(Math.random()*200)+"px"
              //item.style.backgroundColor=randomColor()
          }
          item.y+=player.speed*0.8;
